@@ -13,6 +13,8 @@
 		<spring.version>4.1.7.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 		<fastjson.version>1.2.6</fastjson.version>
+		<druid.version>1.0.15</druid.version>
+		<hibernate.version>4.3.10.Final</hibernate.version>
 	</properties>
 
 
@@ -48,9 +50,22 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+
+		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
+		</dependency>
+
+		<!-- hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
 		</dependency>
 
 	</dependencies>
