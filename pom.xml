@@ -15,6 +15,8 @@
 		<fastjson.version>1.2.6</fastjson.version>
 		<druid.version>1.0.15</druid.version>
 		<hibernate.version>4.3.10.Final</hibernate.version>
+		<aspectjweaver.version>1.8.6</aspectjweaver.version>
+		<mysqldriver.version>5.1.30</mysqldriver.version>
 	</properties>
 
 
@@ -35,6 +37,18 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${aspectjweaver.version}</version>
 		</dependency>
 
 		<dependency>
@@ -66,6 +80,12 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>${hibernate.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysqldriver.version}</version>
 		</dependency>
 
 	</dependencies>
