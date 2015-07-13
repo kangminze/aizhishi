@@ -72,7 +72,7 @@
 		</property>
 		<property name="packagesToScan">
 			<list>
-				<value>com.kxz.aizhishi.entity.*</value>
+				<value>com.kxz.aizhishi.*.entity.*</value>
 			</list>
 		</property>
 	</bean>
